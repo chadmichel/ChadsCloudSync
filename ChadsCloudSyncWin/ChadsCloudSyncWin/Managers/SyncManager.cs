@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ChadsCloudSyncWin.Managers
 {
-    class SyncManager
+    public interface ISyncManager
     {
+
+    }
+
+    class SyncManager : BaseManager
+    {
+
     }
 }

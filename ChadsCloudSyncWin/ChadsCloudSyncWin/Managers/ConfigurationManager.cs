@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChadsCloudSyncWin
+namespace ChadsCloudSyncWin.Managers
 {
     public interface IConfigurationManager
     {
 
     }
 
-    public class ConfigurationManager
+    class ConfigurationManager : BaseManager
     {
     }
 }

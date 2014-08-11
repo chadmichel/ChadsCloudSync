@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChadsCloudSyncWin.Accessors
 {
-    public interface IConfigurationAccessor
-    {
-
-    }
-
-    class ConfigurationAccessor : BaseAccessor, IConfigurationAccessor
+    public class BaseAccessor : BaseService
     {
     }
 }

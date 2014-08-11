@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChadsCloudSyncWin.Accessors
+namespace ChadsCloudSyncWin.Managers
 {
-    class AzureSyncAccessor
+    public class BaseManager : BaseService
     {
     }
 }

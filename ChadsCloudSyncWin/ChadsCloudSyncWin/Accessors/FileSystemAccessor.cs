@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ChadsCloudSyncWin.Accessors
 {
-    class FileSystemAccessor
+    public interface IFileSystemAccessor
+    {
+
+    }
+
+    class FileSystemAccessor : BaseAccessor, IFileSystemAccessor
     {
     }
 }

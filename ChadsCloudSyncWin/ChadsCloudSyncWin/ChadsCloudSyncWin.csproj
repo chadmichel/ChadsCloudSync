@@ -59,9 +59,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Accessors\AzureSyncAccessor.cs" />
+    <Compile Include="Accessors\AzureBlobAccessor.cs" />
+    <Compile Include="Accessors\BaseAccessor.cs" />
     <Compile Include="Accessors\ConfigurationAccessor.cs" />
     <Compile Include="Accessors\FileSystemAccessor.cs" />
+    <Compile Include="BaseService.cs" />
+    <Compile Include="Managers\BaseManager.cs" />
     <Compile Include="Managers\ConfigurationManager.cs" />
     <Compile Include="Factory.cs" />
     <Compile Include="Managers\SyncManager.cs" />

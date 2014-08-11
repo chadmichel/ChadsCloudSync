@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ChadsCloudSyncWin.Accessors
 {
-    public interface IConfigurationAccessor
+    public interface IAzureBlobAccessor
     {
-
+        
     }
 
-    class ConfigurationAccessor : BaseAccessor, IConfigurationAccessor
+    class AzureBlobAccessor : BaseService
     {
     }
 }
